@@ -1,0 +1,73 @@
+body {
+    background-color: white;
+}
+
+.KeepLeft{
+	text-align: left;
+}
+.KeepRight{
+	text-align: right;
+}
+.MainHeading,.SmallHeading, .SubHeading{
+	color: black;
+	font-family: Calibri, Arial;
+	padding: 10px;
+}
+.MainHeading{
+	margin: 10px;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 10%;
+}
+.SmallHeading{
+	margin: 0px;
+	font-size: 20px;
+	line-height: 35%;
+	font-weight: normal;
+}
+.SubHeading{
+	margin: 0px;
+	font-size: 35px;
+	line-height: 35%;
+	font-weight: bold;
+}
+.Content{
+	margin: 0px;
+	font-size: 20px;
+	/*line-height: 35%;*/
+	font-weight: normal;
+	padding-left:1em;
+}
+p{
+	color: green;
+}
+#top{
+	font-size: 36px;
+}
+#bottom{
+	font-size: 20px;
+}
+#center{
+	font-size: 10;
+}
+.name{
+	font-weight: bold;
+	color: blue;
+}
+table{
+	border:2px solid black;
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	/*border-collapse: collapse;*/
+}
+th, td{
+	border:1px solid black;	
+	padding: 5px;
+}
+
+th{
+	color: blue;
+	font-size: 20px;
+}
