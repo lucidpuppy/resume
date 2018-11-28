@@ -20,9 +20,10 @@ body {
 	line-height: 10%;
 }
 .SmallHeading{
+	padding-top: 12px;
 	margin: 0px;
 	font-size: 20px;
-	line-height: 35%;
+	line-height: 100%;
 	font-weight: normal;
 }
 .SubHeading{
