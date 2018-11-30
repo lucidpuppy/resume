@@ -19,47 +19,53 @@ body {
 	margin: 10px;
 	font-size: 50px;
 	font-weight: bold;
-	/*background-color: #7cef88;*/
+	background-color: #b5d1ff;
 }
 .MainHeadingContent{
 	padding-top: 12px;
 	margin: 0px;
 	font-size: 20px;
-	line-height: 100%;
+	line-height: 35px;
 	font-weight: normal;
 	width: 20em;
-	/*background-color: grey;*/
+	background-color: #dbf46b;
 }
 .SubHeading{
 	margin: 0px;
 	font-size: 28px;
 	/*line-height: 35%;*/
 	font-weight: bold;
-	/*background-color: #8df1fc;*/
+	background-color: #c59bef;
 }
 .container-fluid{
 	padding-top: 1em;
-	/*background-color: #f43598;*/
+	background-color: #bebfbb;
 }
 .Content{
 	/*align-self: center;*/
 	margin: 0px;
 	font-size: 20px;
-	/*line-height: 35%;*/
+	line-height: 120%;
 	font-weight: normal;
 	padding-top: 0.3em;
 	padding-left: 1em;
-	width: 30em;
-	/*background-color: #bd8dfc;*/
-}
-.Temp{
-	float: none;
-    display: inline-block;	
+	width: 28em;
+	text-align: left;
+	overflow-wrap: break-word;
+	background-color: #42c5f4;
 }
 
-p{
-	color: green;
+ul li:before {
+	content: "-";
+	position: absolute;
+	left: 30px;
+	background-color: #ef56d1;
 }
+.ListStyle{
+	list-style: none;
+}
+
+
 #top{
 	font-size: 36px;
 }
