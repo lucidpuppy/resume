@@ -13,7 +13,7 @@ body {
 	font-family: Calibri, Arial;
 	width: 25em;
 	padding: 10px;
-	line-height: 50%;
+	line-height: 100%;
 }
 .MainHeading{
 	margin: 10px;
@@ -33,7 +33,7 @@ body {
 .SubHeading{
 	margin: 0px;
 	font-size: 28px;
-	/*line-height: 35%;*/
+	line-height: 100%;
 	font-weight: bold;
 	/*background-color: #c59bef;*/
 }
@@ -63,36 +63,4 @@ ul li:before {
 }
 .ListStyle{
 	list-style: none;
-}
-
-
-#top{
-	font-size: 36px;
-}
-#bottom{
-	font-size: 20px;
-}
-#center{
-	font-size: 10;
-}
-.name{
-	font-weight: bold;
-	color: blue;
-}
-table{
-	border:2px solid black;
-	width:50%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	/*border-collapse: collapse;*/
-}
-th, td{
-	border:1px solid black;	
-	padding: 5px;
-}
-
-th{
-	color: blue;
-	font-size: 20px;
 }
