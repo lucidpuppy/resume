@@ -19,7 +19,7 @@ body {
 	margin: 10px;
 	font-size: 50px;
 	font-weight: bold;
-	background-color: #b5d1ff;
+	/*background-color: #b5d1ff;*/
 }
 .MainHeadingContent{
 	padding-top: 12px;
@@ -28,18 +28,18 @@ body {
 	line-height: 35px;
 	font-weight: normal;
 	width: 20em;
-	background-color: #dbf46b;
+	/*background-color: #dbf46b;*/
 }
 .SubHeading{
 	margin: 0px;
 	font-size: 28px;
 	/*line-height: 35%;*/
 	font-weight: bold;
-	background-color: #c59bef;
+	/*background-color: #c59bef;*/
 }
 .container-fluid{
 	padding-top: 1em;
-	background-color: #bebfbb;
+	/*background-color: #bebfbb;*/
 }
 .Content{
 	/*align-self: center;*/
@@ -52,14 +52,14 @@ body {
 	width: 28em;
 	text-align: left;
 	overflow-wrap: break-word;
-	background-color: #42c5f4;
+	/*background-color: #42c5f4;*/
 }
 
 ul li:before {
 	content: "-";
 	position: absolute;
 	left: 30px;
-	background-color: #ef56d1;
+	/*background-color: #ef56d1;*/
 }
 .ListStyle{
 	list-style: none;
