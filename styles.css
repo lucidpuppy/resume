@@ -29,7 +29,7 @@ body {
 .SubHeading{
 	margin: 0px;
 	font-size: 35px;
-	line-height: 35%;
+	/*line-height: 35%;*/
 	font-weight: bold;
 }
 .Content{
@@ -37,6 +37,7 @@ body {
 	font-size: 20px;
 	/*line-height: 35%;*/
 	font-weight: normal;
+	padding-top: 10px;
 	padding-left:1em;
 }
 p{
