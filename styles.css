@@ -8,38 +8,55 @@ body {
 .KeepRight{
 	text-align: right;
 }
-.MainHeading,.SmallHeading, .SubHeading{
+.MainHeading, .MainHeadingContent, .SubHeading{
 	color: black;
 	font-family: Calibri, Arial;
+	width: 25em;
 	padding: 10px;
+	line-height: 50%;
 }
 .MainHeading{
 	margin: 10px;
 	font-size: 50px;
 	font-weight: bold;
-	line-height: 10%;
+	/*background-color: #7cef88;*/
 }
-.SmallHeading{
+.MainHeadingContent{
 	padding-top: 12px;
 	margin: 0px;
 	font-size: 20px;
 	line-height: 100%;
 	font-weight: normal;
+	width: 20em;
+	/*background-color: grey;*/
 }
 .SubHeading{
 	margin: 0px;
-	font-size: 35px;
+	font-size: 28px;
 	/*line-height: 35%;*/
 	font-weight: bold;
+	/*background-color: #8df1fc;*/
+}
+.container-fluid{
+	padding-top: 1em;
+	/*background-color: #f43598;*/
 }
 .Content{
+	/*align-self: center;*/
 	margin: 0px;
 	font-size: 20px;
 	/*line-height: 35%;*/
 	font-weight: normal;
-	padding-top: 10px;
-	padding-left:1em;
+	padding-top: 0.3em;
+	padding-left: 1em;
+	width: 30em;
+	/*background-color: #bd8dfc;*/
 }
+.Temp{
+	float: none;
+    display: inline-block;	
+}
+
 p{
 	color: green;
 }
